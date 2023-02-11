@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f3;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.div-1 {
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .div-5-logo {
+        align-items: center!important;
+        margin-top: 3rem!important;
+        margin-bottom: 3rem!important;
+    }
+    .div-4-text-1 {
+        font-weight: 400!important;
+        font-size: 20px!important;
+    }
+    .div-4-text-2 {
+        font-weight: 250!important;
+        font-size: 12px!important;
+        padding-top: 5px!important;
+    }
+}
+.chip {
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+}
+  
+.chip img {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.card-hover:hover {
+    background-color: #6246ea!important;
+    color: #ffffff;
+}
+.img-manual {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.c-hover:hover {
+    box-shadow: 4px 6px 13px rgba(215, 215, 215, 0.25);
+    border-radius: 12px;    
+}
